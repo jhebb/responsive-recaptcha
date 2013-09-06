@@ -4,12 +4,18 @@ This is a quick theme for <a href="https://www.google.com/recaptcha">reCAPTCHA</
 
 <img src="http://i.imgur.com/lWuCN.png" alt="Responsive reCAPTCHA screenshot">
 
+# LESS Version
+
+This is a LESS port of https://github.com/chrisvanpatten/responsive-recaptcha -- all orignal design credit goes there. Any changes below are to make the readme relevant for LESS.
+
+The LESS version includes both <a href="https://github.com/JoelSutherland/LESS-Prefixer">Normalize V2</a> and <a href="https://github.com/JoelSutherland/LESS-Prefixer">LESS Prefixer</a>.
+
 ## Prerequisites
 
 Here's what you need:
 
 *   You should have reCAPTCHA set up already
-*   If you want to work with the SASS file, you will need <a href="http://compass-style.org/">Compass</a>.
+*   A LESS compiler, if you want to work with the LESS file. (<a href="http://alphapixels.com/prepros/">Prepos</a>)
 *   <a href="http://fortawesome.github.com/Font-Awesome/">Font-Awesome</a> is referenced for the icons (but any icon font, or images, would work)
 
 ## Other notes
@@ -22,18 +28,18 @@ If you want to customize this further and have questions, feel free to ask or co
 
 ## Customising colours
 
-If you're a SASS/Compass user, you can customize the colors with some easy included variables. They are:
+If you're a LESS user, you can customize the colors with some easy included variables. They are:
 
-+ `$recaptcha-base-color`
-+ `$recaptcha-border-radius`
-+ `$recaptcha-border-radius-inner`
-+ `$recaptcha-input-background`
-+ `$recaptcha-icons-color`
-+ `$recaptcha-icons-shadow`
++ `@recaptcha-base-color`
++ `@recaptcha-border-radius`
++ `@recaptcha-border-radius-inner`
++ `@recaptcha-input-background`
++ `@recaptcha-icons-color`
++ `@recaptcha-icons-shadow`
 
-Simply include these variables before you import `recaptcha.scss` and it should use them with no trouble.
+Simply include these variables before you import `recaptcha.less` and it should use them with no trouble.
 
-Note: the default values are listed in `recaptcha.scss`, in the "Settings" section.
+Note: the default values are listed in `recaptcha.less`, in the "Settings" section.
 
 ## Caution
 
