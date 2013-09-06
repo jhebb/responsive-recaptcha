@@ -4,7 +4,7 @@ This is a quick theme for <a href="https://www.google.com/recaptcha">reCAPTCHA</
 
 <img src="http://i.imgur.com/lWuCN.png" alt="Responsive reCAPTCHA screenshot">
 
-# LESS Version
+## LESS Version
 
 This is a LESS port of https://github.com/chrisvanpatten/responsive-recaptcha -- all orignal design credit goes there. Any changes below are to make the readme relevant for LESS.
 
