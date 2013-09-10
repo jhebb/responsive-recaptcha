@@ -15,7 +15,7 @@ The LESS version includes both <a href="https://github.com/JoelSutherland/LESS-P
 Here's what you need:
 
 *   You should have reCAPTCHA set up already
-*   A LESS compiler, if you want to work with the LESS file. (<a href="http://alphapixels.com/prepros/">Prepos</a>)
+*   A LESS compiler, if you want to work with the LESS file. (<a href="http://alphapixels.com/prepros/">Prepros</a>)
 *   <a href="http://fortawesome.github.com/Font-Awesome/">Font-Awesome</a> is referenced for the icons (but any icon font, or images, would work)
 
 ## Other notes
